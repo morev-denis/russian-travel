@@ -1,6 +1,6 @@
 /* определение внешней геометрии блока header */
 .page__header {
-  max-width: 1184px;
+  width: calc(100% * (1184/1280));
   height: 52px;
   margin: 28px auto;
 }
