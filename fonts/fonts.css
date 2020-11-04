@@ -11,5 +11,5 @@
        url('../fonts/inter/_font-weight_900/Inter-Black.woff') format('woff'),
        url('../fonts/inter/_font-weight_900/Inter-Black.ttf') format('truetype');
   font-family: 'Inter';
-  font-weight: black;
+  font-weight: 900;
 }
