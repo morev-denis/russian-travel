@@ -1,0 +1,22 @@
+.content {
+  display: grid;
+  gap: 92px;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .content {
+
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .content {
+    gap: 88px; /* gap между блоками cover и places 90px, но это неточность макета, можно договориться с дизайнером */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    gap: 64px; /* gap между блоками cover и places 66px, но это неточность макета, можно договориться с дизайнером */
+  }
+}

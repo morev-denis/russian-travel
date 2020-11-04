@@ -1,3 +1,28 @@
 .lead__title {
+  margin: 0 auto 32px;
+  max-width: 720px;
+  font-size: 6rem;
+  line-height: calc(100 / 96);
+  font-weight: 900;
+  text-align: center;
+}
 
+/* @media screen and (max-width: 1024px) {
+  .lead__title {
+
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: calc((100vw - 320px) / (768 - 320) * (96 - 40) + 2.5rem); /* данная формула позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять разме шрифта с 96px (6rem) до 40 px (2.5rem) */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    margin: 0 auto 16px;
+    font-size: 2.5rem;
+    line-height: calc(44 / 40);
+  }
 }

@@ -2,18 +2,20 @@
 .page__header {
   width: calc(100% * (1184 / 1280));
   min-height: 52px;
-  margin: 28px auto;
+  margin: 28px auto 56px;
 }
 
 @media screen and (max-width: 1024px) {
   .page__header {
     width: calc(100% * (928 / 1024));
+    margin: 28px auto 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page__header {
     width: calc(100% * (720 / 768));
+    margin: 28px auto 48px;
   }
 }
 
@@ -21,6 +23,6 @@
   .page__header {
     width: calc(100% * (288 / 320));
     min-height: 42px;
-    margin: 16px auto;
+    margin: 16px auto 48px;
   }
 }
