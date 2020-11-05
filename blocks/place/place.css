@@ -1,4 +1,28 @@
 .place {
-  width: 984px;
-  height: 584px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: fit-content(460px) minmax(min-content, max-content);
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: fit-content(440px) minmax(min-content, max-content);
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: fit-content(340px) minmax(min-content, max-content);
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 100%;
+    row-gap: 32px;
+  }
 }

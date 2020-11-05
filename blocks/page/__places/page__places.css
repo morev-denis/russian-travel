@@ -1,0 +1,23 @@
+/* определение внешней геометрии и положения блока places */
+.page__places {
+  width: calc(100% * (984 / 1280));
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__places {
+      width: calc(100% * (928 / 1024));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__places {
+  width: calc(100% * (720 / 768));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__places {
+    width: calc(100% * (320 / 320));
+  }
+}

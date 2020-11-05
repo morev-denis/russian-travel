@@ -1,3 +1,27 @@
 .website__url-heading {
-
+  margin: 0 0 12px;
+  font-size: .75rem;
+  line-height: calc(12 / 12);
+  font-weight: normal;
+  letter-spacing: calc(.75rem * .20);
+  color: #aaa;
 }
+
+
+/* @media screen and (max-width: 1024px) {
+  .website__url-heading {
+
+  }
+} */
+
+/* @media screen and (max-width: 768px) {
+  .website__url-heading {
+
+  }
+} */
+
+/* @media screen and (max-width: 320px) {
+  .website__url-heading {
+
+  }
+} */
