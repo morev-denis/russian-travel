@@ -1,3 +1,6 @@
 .intro_text {
-
+  margin: 0 0 33px;
+  font-size: 1rem;
+  line-height: calc(26 / 16);
+  font-weight: nor;
 }

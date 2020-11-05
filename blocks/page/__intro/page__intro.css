@@ -1,0 +1,25 @@
+/* определение внешней геометрии и положения блока intro */
+.page__intro {
+  max-width: 690px;
+  margin-left: 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__intro {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__intro {
+    max-width: 720px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__intro {
+    max-width: 288px;
+    margin-left: 16px;
+  }
+}

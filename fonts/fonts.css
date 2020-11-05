@@ -7,6 +7,14 @@
 }
 
 @font-face {
+  src: url('../fonts/inter/_font-weight_700/Inter-Bold.woff2') format('woff2'),
+       url('../fonts/inter/_font-weight_700/Inter-Bold.woff') format('woff'),
+       url('../fonts/inter/_font-weight_700/Inter-Bold.ttf') format('truetype');
+  font-family: 'Inter';
+  font-weight: bold;
+}
+
+@font-face {
   src: url('../fonts/inter/_font-weight_900/Inter-Black.woff2') format('woff2'),
        url('../fonts/inter/_font-weight_900/Inter-Black.woff') format('woff'),
        url('../fonts/inter/_font-weight_900/Inter-Black.ttf') format('truetype');
