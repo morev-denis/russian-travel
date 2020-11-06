@@ -16,8 +16,14 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .page__places {
-    width: calc(100% * (320 / 320));
+    width: calc(100% * (480 / 480));
   }
 }
+
+/* @media screen and (max-width: 320px) {
+  .page__places {
+
+  }
+} */
