@@ -19,5 +19,6 @@
 @media screen and (max-width: 320px) {
   .page__footer {
     width: calc(100% * (288 / 320));
+    margin: 64px auto 24px;
   }
 }

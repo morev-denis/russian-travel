@@ -31,17 +31,17 @@
   }
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover {
-
+    height: calc(100vw * 640 / 1024);
   }
-} */
+}
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover {
-
+    height: calc(100vw * 480 / 768);
   }
-} */
+}
 
 /* @media screen and (max-width: 320px) {
   .cover {
