@@ -2,6 +2,7 @@
   margin: 32px auto 0;
   max-width: 360px;
   position: relative;
+  z-index: 1;
   font-size: 1.125rem;
   line-height: calc(22 / 18);
   font-weight: normal;
