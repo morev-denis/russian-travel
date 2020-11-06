@@ -1,24 +1,23 @@
-.footer {
+.footer__links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 /* @media screen and (max-width: 1024px) {
-  .footer {
+  .footer__links {
 
   }
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer {
+  .footer__links {
 
   }
 } */
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    flex-direction: column;
+  }
+}

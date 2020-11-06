@@ -6,13 +6,13 @@
 
 @media screen and (max-width: 1024px) {
   .page__places {
-      width: calc(100% * (928 / 1024));
+    width: calc(100% * (928 / 1024));
   }
 }
 
 @media screen and (max-width: 768px) {
   .page__places {
-  width: calc(100% * (720 / 768));
+    width: calc(100% * (720 / 768));
   }
 }
 

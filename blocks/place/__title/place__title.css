@@ -6,21 +6,23 @@
   font-weight: 900;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__title {
-
+    font-size: calc((100vw - 768px) / (1024 - 768) * (72 - 42) + 2.625rem); /* данная формула позволяет при изменении ширины экрана с 1024px до 768px пропорцонально изменять разме шрифта с 72px (4.5rem) до 42px (2.625rem) */
   }
-} */
+}
 
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 2.625rem;
+    font-size: calc((100vw - 320px) / (768 - 320) * (42 - 24) + 1.5rem); /* данная формула позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять разме шрифта с 42px (2.6255rem) до 24px (1.5rem) */
     line-height: calc(46 / 42);
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__title {
+    margin-left: 16px;
     font-size: 2rem;
     line-height: calc(35 / 32);
   }

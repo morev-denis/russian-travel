@@ -1,3 +1,35 @@
 .cover__title {
+  margin: 245px auto 0;
+  max-width: 560px;
+  position: relative;
+  font-size: 4.5rem;
+  line-height: calc(75 / 72);
+  font-weight: 900;
+  text-align: center;
+}
 
+@media screen and (max-width: 1280px) {
+  .cover__title {
+    margin: calc((100vw - 1024px) / (1280 - 1024) * (245 - 195) + 195px) auto 0; /* формула для margin-top позволяет при изменении ширины экрана с 1280px до 1024px пропорцонально изменять отступ сверху с 245px до 195px */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin: calc((100vw - 768px) / (1024 - 768) * (195 - 115) + 115px) auto 0; /* формула для margin-top позволяет при изменении ширины экрана с 1024px до 768px пропорцонально изменять отступ сверху с 195px до 115px */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: calc((100vw - 320px) / (768 - 320) * (72 - 32) + 2rem); /* данная формула позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять разме шрифта с 72px (4.5rem) до 32px (2rem) */
+    margin: calc((100vw - 320px) / (768 - 320) * (115 - 33) + 33px) auto 0; /* формула для margin-top позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять отступ сверху с 115px до 33px */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 2rem;
+    line-height: calc(35 / 32);
+  }
 }

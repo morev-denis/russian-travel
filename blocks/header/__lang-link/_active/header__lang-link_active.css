@@ -2,6 +2,6 @@
   text-decoration: underline;
 }
 
-/* .header__lang-link_active:hover {
+.header__lang-link_active:hover {
   cursor: default;
-} */
+}

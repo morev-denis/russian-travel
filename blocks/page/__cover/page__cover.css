@@ -1,0 +1,23 @@
+/* определение внешней геометрии и положения блока cover */
+.page__cover {
+  width: calc(100% * (1184 / 1280));
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__cover {
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .page__cover {
+
+  }
+} */
+
+/* @media screen and (max-width: 320px) {
+  .page__cover {
+
+  }
+} */

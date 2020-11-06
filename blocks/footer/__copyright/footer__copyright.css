@@ -1,3 +1,24 @@
 .footer__copyrtight {
+  margin: 0;
+  font-size: .875rem;
+  line-height: calc(16 / 14);
+  font-weight: normal;
+}
 
+/* @media screen and (max-width: 1024px) {
+  .footer__copyrtight {
+
+  }
+} */
+
+/* @media screen and (max-width: 768px) {
+  .footer__copyrtight {
+   }
+} */
+
+@media screen and (max-width: 320px) {
+  .footer__copyrtight {
+    margin-top: 48px;
+    line-height: calc(14 / 14);
+  }
 }

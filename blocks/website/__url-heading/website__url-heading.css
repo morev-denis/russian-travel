@@ -14,11 +14,11 @@
   }
 } */
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .website__url-heading {
-
+    font-size: calc((100vw - 320px) / (768 - 320) * (12 - 8) + .5rem); /* данная формула позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять разме шрифта с 12px (.75rem) до 8px (0.5rem) */
   }
-} */
+}
 
 /* @media screen and (max-width: 320px) {
   .website__url-heading {

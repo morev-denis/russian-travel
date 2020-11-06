@@ -1,21 +1,21 @@
 .place {
   width: 100%;
   display: grid;
-  grid-template-columns: fit-content(460px) minmax(min-content, max-content);
+  grid-template-columns: calc(100% * 460/984) minmax(min-content, max-content);
   column-gap: 40px;
   row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: fit-content(440px) minmax(min-content, max-content);
+    grid-template-columns: calc(100% * 440/928) minmax(min-content, max-content);
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: fit-content(340px) minmax(min-content, max-content);
+    grid-template-columns: calc(100% * 340/720) minmax(min-content, max-content);
     column-gap: 28px;
   }
 }

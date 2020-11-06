@@ -18,7 +18,7 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     margin: 0 0 25px;
-    font-size: 1rem;
+    font-size: calc((100vw - 320px) / (768 - 320) * (16 - 12) + .75rem); /* данная формула позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять разме шрифта с 16px (1rem) до 12px (0.75rem) */
     line-height: calc(26 / 16);
   }
 }

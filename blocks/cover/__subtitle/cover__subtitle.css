@@ -1,3 +1,30 @@
 .cover__subtitle {
+  margin: 32px auto 0;
+  max-width: 360px;
+  position: relative;
+  font-size: 1.125rem;
+  line-height: calc(22 / 18);
+  font-weight: normal;
+  text-align: center;
+}
 
+/* @media screen and (max-width: 1024px) {
+  .cover__subtitle {
+
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    margin: calc((100vw - 320px) / (768 - 320) * (32 - 16) + 16px) auto 0; /* формула для margin-top позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять отступ сверху с 768px до 32px */
+    font-size: calc((100vw - 320px) / (768 - 320) * (18 - 14) + 0.875rem); /* данная формула позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять разме шрифта с 18px (1.125rem) до 14px (0.875rem) */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: .875rem;
+    line-height: calc(16 / 14);
+  }
 }

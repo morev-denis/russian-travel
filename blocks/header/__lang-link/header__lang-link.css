@@ -3,6 +3,11 @@
   line-height: calc(28 / 24);
   color: #fff;
   text-decoration: none;
+  transition: opacity .3s ease;
+}
+
+.header__lang-link:hover {
+  opacity: .6;
 }
 
 .header__lang-link:hover {

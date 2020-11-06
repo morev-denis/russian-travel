@@ -3,6 +3,11 @@
   line-height: calc(22 / 18);
   font-weight: normal;
   color: #fff;
+  transition: opacity .3s ease;
+}
+
+.website__link:hover {
+  opacity: .6;
 }
 
 /* @media screen and (max-width: 1024px) {
@@ -11,11 +16,11 @@
   }
 } */
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .website__link {
-
+    font-size: calc((100vw - 320px) / (768 - 320) * (18 - 8) + .5rem); /* данная формула позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять разме шрифта с 18px (1.125rem) до 8px (0.5rem) */
   }
-} */
+}
 
 /* @media screen and (max-width: 320px) {
   .website__link {
