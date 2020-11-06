@@ -11,11 +11,11 @@
   }
 } */
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro__title {
-
+    font-size: calc((100vw - 320px) / (768 - 320) * (54 - 32) + 2rem); /* данная формула позволяет при изменении ширины экрана с 768px до 320px пропорцонально изменять разме шрифта с 54px (3.375rem) до 32px (2rem) */
   }
-} */
+}
 
 @media screen and (max-width: 320px) {
   .intro__title {

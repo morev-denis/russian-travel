@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+https://morev-denis.github.io/russian-travel/
+
 ## Описание проекта
 
 Данный проект является учебным, созданным при прхождение курса Яндекс Практикум.
@@ -23,6 +25,3 @@
   * Firefxox (версия 52 и выше);
   * Google Chrome (версия 57 и выше);
   * Microsoft Edge (версия 16 и выше).
-
-
-https://morev-denis.github.io/russian-travel/
